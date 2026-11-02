@@ -31,7 +31,7 @@ let full = '';
 
 images.forEach(({ url, alt }) => {
   full += `<li>
-              <img src = "${url}" alt="${alt}"
+              <img src = "${url}" alt="${alt}">
             </li>`;
 });
 
