@@ -7,6 +7,6 @@ items.forEach(i => {
     const title = i.querySelector('h2').textContent;
     const elem = i.querySelectorAll('li').length;
 
-    console.log(`Category:${title}`);
-    console.log(`Elements:${elem}`);
+    console.log(`Category: ${title}`);
+    console.log(`Elements: ${elem}`);
 });
